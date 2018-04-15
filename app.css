@@ -1,0 +1,162 @@
+/*google font*/
+
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu|Catamaran');
+
+
+/*font-family: 'Baloo Tammudu', cursive;*/
+/*font-family: 'Catamaran', sans-serif;*/
+
+/*html element*/
+
+body{
+   font-family: 'Baloo Tammudu', cursive; 
+}
+
+
+
+/*common utility*/
+
+.shadow{
+    text-shadow: 
+        0px 2px 1px rgba(22,22,22,0.8) ,
+        0px 1px 4px rgba(22,22,22,0.3) , 
+        0px 4px 10px rgba(55,55,55,0.1);
+}
+
+.clear{
+    clear: both;
+}
+
+
+/* navbar*/
+.navbar-full{
+    border-radius: 0px;
+}
+
+.navbar{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+/*cover*/
+.cover{
+    background: url('img/confortableDesk.jpg');
+    height: 900px;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.cover i {
+    font-size: 65px;
+}
+
+    /*title*/
+
+.mainInfo{
+    /*text-align: center;*/
+    color: white;
+    margin: 0 auto;
+    padding-top: 15%;
+    width: 700px;
+    max-width: 80%;
+}
+
+
+
+h1{
+    padding: 0;
+}
+
+.coverH1{
+    font-size: 80px;
+    margin: 0;
+}
+
+
+.coverH2{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.coverH2:after{
+    content: "";
+    display: block;
+    width: 90%;
+    height: 1px;
+    background: #fff;
+    margin: 10px auto 20px auto;
+}
+
+    /*form*/
+.coverForm{
+    margin: 0 auto;
+    width: 350px;
+}
+
+.btnSpacing{
+    margin: 5px;
+}
+
+    /*downward Arrow*/
+.arrow{
+    margin: 0 auto;
+    width: 15%;
+    text-align: center;
+}
+
+.arrow i{
+    font-size: 40px;
+    
+    color: white;
+    
+}
+
+
+/*break*/
+.break{
+    
+    background: #222;
+   
+}
+
+.break h3{
+    text-align: center;
+    margin: 0;
+    padding: 12px ;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+}
+
+
+
+/*slider*/
+
+
+
+/*jobs*/
+.jobBK{
+    background: url(img/bethany-legg-9248.jpg);
+    padding: 3% 5%;
+}
+
+/*pages*/
+.pages{
+    text-align: center;
+}
+
+/*copyright*/
+.copyright{
+    color: white;
+    text-align: center;
+}
+
+/*RWD*/
+@media screen and (max-width:500px){
+    .coverH1{
+    font-size: 65px;
+    margin: 0;
+}
+
+}
